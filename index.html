@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--Meta Tags -->
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<!-- Material Design Bootstrap -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.6.0/css/mdb.min.css" rel="stylesheet">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Aleo" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	<title>LANDING PAGE</title>
+</head>
+<body>
+	<!-- Start of Navbar-->
+	<nav class="navbar fixed-top">
+		<div class="container">
+			<a href="#" class="navbar-brand">
+				<img src="content/music2/images/music2.png" class="img-responsive img-fluid">
+			</a>
+			<span class="open-slide">
+            	<a href="#" onclick="openSlideMenu()"><i class="fas fa-bars"></i></a>
+      		</span>
+      		<div id="side-menu" class="side-nav">
+        		<a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        		<form>
+        			<div class="form-group">
+        				<input type="text" name="search" class="form-control" placeholder="Search Events..">
+        			</div>
+        		</form>
+                <a href="#">Home</a>
+        		<a href="#">About</a>
+        		<a href="#">Events</a>
+        		<a href="#">Contact</a>
+        		<a href="#">Login</a>
+        		<a href="#">Signup</a>
+      		</div>
+      		<ul class="list-unstyled nav navbarNav">
+      			<li class="nav-item active">
+      				<a href="#">Home</a>
+      			</li>
+      			<li class="nav-item">
+      				<a href="#">About</a>
+      			</li>
+      			<li class="nav-item">
+      				<a href="#">Events</a>
+      			</li>
+      			<li class="nav-item">
+      				<a href="#">Contact</a>
+      			</li>
+      			<li class="nav-item">
+      				<a href="#">Login</a>
+      			</li>
+      			<li class="nav-item">
+      				<a href="#">Signup</a>
+      			</li>
+      		</ul>
+		</div>
+	</nav>
+	<!-- End of Navbar -->
+
+	<!-- Start of Carousel Section -->
+	<div id="carouselExample" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2500">
+  		<ol class="carousel-indicators">
+		    <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+		    <li data-target="#carouselExample" data-slide-to="1"></li>
+		    <li data-target="#carouselExample" data-slide-to="2"></li>
+  		</ol>
+  		<div class="carousel-inner" role="listbox">
+    		<div class="carousel-item active view">
+      			<img class="d-block w-100" src="https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+      			<div class="mask rgba-black-strong">
+      				<a href="#!"></a>
+      			</div>
+      			<div class="carousel-caption">
+      				<h3 class="h3-responsive">EntroTech Summit</h3>
+      				<p class="p-responsive">31st December,2018</p>
+      			</div>
+    		</div>
+    		<div class="carousel-item view">
+      			<img class="d-block w-100" src="https://images.pexels.com/photos/2143/lights-party-dancing-music.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Second slide">
+      			<div class="mask rgba-black-strong">
+      				<a href="#!"></a>
+      			</div>
+      			<div class="carousel-caption">
+      				<h3 class="h3-responsive">EntroTech Summit</h3>
+      				<p class="p-responsive">31st December,2018</p>
+      			</div>
+    		</div>
+    		<div class="carousel-item view">
+      			<img class="d-block w-100" src="https://images.pexels.com/photos/5156/people-eiffel-tower-lights-night.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Third slide">
+      			<div class="mask rgba-black-strong">
+      				<a href="#!"></a>
+      			</div>
+      			<div class="carousel-caption">
+      				<h3 class="h3-responsive">EntroTech Summit</h3>
+      				<p class="p-responsive">31st December,2018</p>
+      			</div>
+    		</div>
+    	</div>
+  		<a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+    		<i class="fas fa-chevron-circle-left"></i>
+    		<span class="sr-only">Previous</span>
+  		</a>
+  		<a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+    		<i class="fas fa-chevron-circle-right"></i>
+    		<span class="sr-only">Next</span>
+  		</a>
+	</div>
+	<!-- End of Carousel Section -->
+
+	<!-- Start of Second Section -->
+	<section class="event container-fluid">
+		<h3 class="upcoming">Upcoming <span class="events">Events</span></h3>
+		<h6 class="book">Book your Tickets Online
+			<span class="view">
+				<a href="#" class="text-danger">View All</a>
+			</span>
+		</h6>
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="card">
+					<div class="card-header view overlay zoom">
+						<img src="https://in.bmscdn.com/Events/moviecard/ET00091504.jpg" class="img-responsive img-fluid card-img-top">
+						<div class="mask rgba-black-strong">
+							<div class="genre">
+								<span class="badge badge-danger">Comedy</span>	
+							</div>
+							<div class="text-center">
+								<a href="#" class="btn btn-info">Buy</a>
+							</div>
+						</div>
+					</div>
+					<div class="card-body">
+						<h4 class="name">Garam Masala ft. Rohan Joshi, Ashish Shakya, Sumukhi Suresh & Prashasti Singh</h4>
+						<h6 class="date">December 28 | 7PM</h6>
+						<h6 class="location">St. Andrew's Auditorium, Mumbai</h6>
+						<h6 class="price">499 - 1,599</h6>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-4">
+				<div class="card">
+					<div class="card-header view overlay zoom">
+						<img src="https://in.bmscdn.com/Events/moviecard/ET00081501.jpg" class="img-responsive img-fluid card-img-top">
+						<div class="mask rgba-black-strong">
+							<div class="genre">
+								<span class="badge badge-danger">Learn</span>	
+							</div>
+							<div class="text-center">
+								<a href="#" class="btn btn-info">Buy</a>
+							</div>
+						</div>
+					</div>
+					<div class="card-body">
+						<h4 class="name">Become an Amazon Entrepreneur - Workshop</h4>
+						<h6 class="date">January 5 | 5PM</h6>
+						<h6 class="location">Qtube Cafe, Bandra</h6>
+						<h6 class="price">599 - 899</h6>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-4">
+				<div class="card">
+					<div class="card-header view overlay zoom">
+						<img src="https://in.bmscdn.com/Events/moviecard/ET00089761.jpg" class="img-responsive img-fluid card-img-top">
+						<div class="mask rgba-black-strong">
+							<div class="genre">
+								<span class="badge badge-danger">Learn</span>	
+							</div>
+							<div class="text-center">
+								<a href="#" class="btn btn-info">Buy</a>
+							</div>
+						</div>
+					</div>
+					<div class="card-body">
+						<h4 class="name">Digital Marketing Workshop</h4>
+						<h6 class="date">January 13 | 5PM</h6>
+						<h6 class="location">Qtube Cafe, Bandra</h6>
+						<h6 class="price">599 - 899</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="card">
+					<div class="card-header view overlay zoom">
+						<img src="https://in.bmscdn.com/Events/moviecard/ET00091504.jpg" class="img-responsive img-fluid card-img-top">
+						<div class="mask rgba-black-strong">
+							<div class="genre">
+								<span class="badge badge-danger">Comedy</span>	
+							</div>
+							<div class="text-center">
+								<a href="#" class="btn btn-info">Buy</a>
+							</div>
+						</div>
+					</div>
+					<div class="card-body">
+						<h4 class="name">Garam Masala ft. Rohan Joshi, Ashish Shakya, Sumukhi Suresh & Prashasti Singh</h4>
+						<h6 class="date">December 28 | 7PM</h6>
+						<h6 class="location">St. Andrew's Auditorium, Mumbai</h6>
+						<h6 class="price">499 - 1,599</h6>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-4">
+				<div class="card">
+					<div class="card-header view overlay zoom">
+						<img src="https://in.bmscdn.com/Events/moviecard/ET00081501.jpg" class="img-responsive img-fluid card-img-top">
+						<div class="mask rgba-black-strong">
+							<div class="genre">
+								<span class="badge badge-danger">Learn</span>	
+							</div>
+							<div class="text-center">
+								<a href="#" class="btn btn-info">Buy</a>
+							</div>
+						</div>
+					</div>
+					<div class="card-body">
+						<h4 class="name">Become an Amazon Entrepreneur - Workshop</h4>
+						<h6 class="date">January 5 | 5PM</h6>
+						<h6 class="location">St. Andrew's Auditorium, Mumbai</h6>
+						<h6 class="price">599 - 899</h6>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-4">
+				<div class="card">
+					<div class="card-header view overlay zoom">
+						<img src="https://in.bmscdn.com/Events/moviecard/ET00089761.jpg" class="img-responsive img-fluid card-img-top">
+						<div class="mask rgba-black-strong">
+							<div class="genre">
+								<span class="badge badge-danger">Learn</span>	
+							</div>
+							<div class="text-center">
+								<a href="#" class="btn btn-info">Buy</a>
+							</div>
+						</div>
+					</div>
+					<div class="card-body">
+						<h4 class="name">Digital Marketing Workshop</h4>
+						<h6 class="date">January 13 | 5PM</h6>
+						<h6 class="location">Qtube Cafe, Bandra</h6>
+						<h6 class="price">599 - 899</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End of Second Section -->
+
+	<!-- Start of third Section -->
+	<section class="statistics">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<h1 class="events">24</h1>
+					<h4>Events</h4>
+				</div>
+				<div class="col-sm-4">
+					<h1 class="participants">24000</h1>
+					<h4>Participants</h4>
+				</div>
+				<div class="col-sm-4">
+					<h1 class="location">12</h1>
+					<h4>Location</h4>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End of third Section -->
+
+	<!-- Start of Fourth Section -->
+	<section class="random">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+				<h1>Our publishing house It deals with the promotion of artists</h1>
+				<h6 class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h6>
+				<div class="text-left">
+					<a href="#" class="btn">Read More</a>
+				</div>
+				</div>
+				<div class="col-sm-6">
+					<img src="https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-responsive img-fluid">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End of Fourth Section -->
+
+	<!-- Start of Contact Section -->
+	<section class="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8">
+					<h3>Get In Touch</h3>
+					<form>
+						<div class="form-row">
+							<div class="col">
+								<div class="form-group">
+									<label for="fname">First Name</label>
+									<input type="text" name="fname" class="form-control" id="fname" placeholder="First Name">
+								</div>
+							</div>
+							<div class="col">
+								<div class="form-group">
+									<label for="lname">Last Name</label>
+									<input type="text" name="lname" class="form-control" id="lname" placeholder="Last Name">
+								</div>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="col">
+								<div class="form-group">
+									<label for="mail">Email ID</label>
+									<input type="email" name="email" id="mail" class="form-control" placeholder="Email ID">
+								</div>
+							</div>
+							<div class="col">
+								<div class="form-group">
+									<label for="number">Contact Number</label>
+									<input type="text" name="number" class="form-control" id="number" placeholder="Contact Number">
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<textarea class="form-control" rows="6" placeholder="Your Password"></textarea>
+						</div>
+					</form>
+					<div class="text-left">
+						<a href="#" class="btn">Submit</a>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<h3>Connect with Us</h3>
+					<h6><i class="fas fa-envelope"></i> ticketmedium@gmail.com</h6>
+					<h6><i class="fas fa-phone-square"></i> +91 9742381630</h6>
+					<h6><i class="fas fa-home"></i> Lorem Dolor Ipsum Aahet</h6>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End of Contact Section -->
+
+	<!-- Start of Footer Section -->
+	<section class="footer">
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="first-section">
+					<img src="content/music2/images/music2.png" class="img-responsive img-fluid" />
+					<h6>Ticket Medium is an online booking platform that helps you explore and buy the best in events, travel and food in your city. We work to make experiences that are worth your time and money, possibly something you have never tried before.</h6>
+				</div>
+				<div class="organizers">
+					<h3>For Organizers</h3>
+					<h6>Our technology, marketing and customer support can help you build a community of not just ticket buyers, but also fans.</h6>
+					<ul class="list-unstyled list-inline">
+						<li class="list-inline-item">
+							<a href="#" class="btn">Post An Event</a>	
+						</li>
+						<li class="list-inline-item">
+							<a href="#" class="btn">Pricing</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-6 terms">
+				<ul class="list-unstyled general">
+					<li class="list-item">
+						<a href="#">About Us</a>
+					</li>
+					<li class="list-item">
+						<a href="#">Terms & Conditions</a>
+					</li>
+					<li class="list-item">
+						<a href="#">FAQs</a>
+					</li>
+					<li class="list-item">
+						<a href="#">Privacy Policy</a>
+					</li>
+					<li class="list-item">
+						<a href="#">Careers</a>
+					</li>
+					<li class="list-item">
+						<a href="#">Contact Us</a>
+					</li>
+				</ul>
+				<ul class="list-unstyled social">
+					<li class="list-item">
+						<a href="#">
+							<i class="fab fa-facebook"></i>
+						</a>
+						<a href="#">
+							<i class="fab fa-twitter"></i>
+						</a>
+						<a href="#">
+							<i class="fab fa-linkedin"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<hr class="white">
+		<div class="footer-copyright text-center">
+			<p class="">Copyrights TicketMedium All Rights Reserved</p>
+		</div>
+	</section>
+	<!-- End of Footer Section -->
+	
+	<!-- JQuery -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Bootstrap tooltips -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.6.0/js/mdb.min.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+    		$(window).scroll(function() {
+  			if ($(document).scrollTop() > 100) {
+    			$('.navbar').addClass('black');
+  			} else {
+    			$('.navbar').removeClass('black');
+  			}
+		});
+    	});
+    	function openSlideMenu(){
+      		document.getElementById('side-menu').style.width = '250px';
+      		document.getElementById('main').style.marginRight = '250px';
+    	}
+    	function closeSlideMenu(){
+      		document.getElementById('side-menu').style.width = '0';
+      		document.getElementById('main').style.marginLeft = '0';
+    	}
+	</script>
+</body>
+</html>
